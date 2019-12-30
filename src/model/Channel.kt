@@ -1,6 +1,6 @@
 package model
 
-data class Channel(val number: String, val shortName: String, val longName: String)
+data class Channel(val number: String, val shortName: String, val longName: String, val recast: Boolean)
 
 /**
  * Declaring this as an receiver function allows it to be imported selectively and gives

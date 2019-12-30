@@ -25,7 +25,7 @@ class App : RComponent<RProps, AppState>() {
         viewingSelectedChannel = false
 
         MainScope().launch {
-            val channels = fetchChannels().toList()
+            val channels = fetchChannels().toList().sortedBy { channel: Channel -> channel.number.toDoubleOrNull() }
             setState {
                 channelList = channels
             }

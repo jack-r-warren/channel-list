@@ -118,7 +118,8 @@ class ChannelModalComponent(props: ChannelModalProps) : RComponent<ChannelModalP
                         props.channel?.let {
                             +"... watch "
                             b {
-                                +it.shortName
+                                if (it.recast) +it.longName
+                                else +it.shortName
                             }
                             +"\""
                             br {}

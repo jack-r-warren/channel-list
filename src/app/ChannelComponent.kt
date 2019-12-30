@@ -17,7 +17,7 @@ interface ChannelProps : RProps {
 class ChannelComponent (props: ChannelProps) : RComponent<ChannelProps, RState>(props) {
     override fun RBuilder.render() {
         styledDiv {
-            key = props.channel.number
+            key = props.channel.toString()
             css {
                 width = 90.pct
                 maxWidth = 500.px
