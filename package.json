@@ -2,7 +2,7 @@
   "name": "channel-list",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jack-r-warren.github.io/channel-list",
+  "homepage": "https://channel-list.jackwarren.info",
   "dependencies": {
     "@jetbrains/kotlin-css": "^1.0.0-pre.89",
     "@jetbrains/kotlin-css-js": "^1.0.0-pre.89",
