@@ -123,7 +123,7 @@ class ChannelModalComponent(props: ChannelModalProps) : RComponent<ChannelModalP
                             }
                             +"\""
                             br {}
-                            +"... tune to "
+                            +"... set the channel to "
                             b {
                                 +it.number
                             }
